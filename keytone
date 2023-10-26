@@ -1,1 +1,19 @@
+create database keystone;
+grant all privileges on keystone.* to keystone@'localhost' identified by '123'; 
+grant all privileges on keystone.* to keystone@'%' identified by '123'; 
+flush privileges; 
+exit
+
+apt -y install keystone python3-openstackclient apache2 libapache2-mod-wsgi-py3 python3-oauth2client
+nano  /etc/keystone/keystone.conf
+
+# line 443 : add to specify Memcache Server
+memcache_servers = 10.0.0.30:11211
+# line 604 : change to MariaDB connection info
+connection = mysql+pymysql://keystone:password@10.0.0.30/keystone
+# line 2543 : uncomment
+provider = fernet
+
+
+
 
