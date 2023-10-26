@@ -1,1 +1,2 @@
 su -s /bin/bash keystone -c "keystone-manage db_sync"
+su -s /bin/bash glance -c "glance-manage db_sync"
