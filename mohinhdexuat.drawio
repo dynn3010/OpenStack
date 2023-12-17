@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T05:27:07.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="8wtbG4iHcm-MOLB3LhoG" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T05:30:28.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="QeBKoFeQ37VW7BsqhTh7" version="22.1.11" type="github">
   <diagram name="Page-1" id="kQclkC6t_OZ5plzZZ3qX">
-    <mxGraphModel dx="1082" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1582" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,21 +8,21 @@
           <mxGeometry x="380" y="490" width="100" height="97" as="geometry" />
         </mxCell>
         <mxCell id="Rq47lQsszGIYjsCbyuHM-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Người dùng&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.authenticated_user;" vertex="1" parent="1">
-          <mxGeometry x="40" y="476" width="111" height="111" as="geometry" />
+          <mxGeometry x="60" y="483" width="111" height="111" as="geometry" />
         </mxCell>
         <mxCell id="Rq47lQsszGIYjsCbyuHM-10" value="Đăng ký tài khoản" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="160" y="510" as="sourcePoint" />
+            <mxPoint x="180" y="510" as="sourcePoint" />
             <mxPoint x="370" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rq47lQsszGIYjsCbyuHM-11" value="Yêu cầu tài nguyên" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.005;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="160" y="538.07" as="sourcePoint" />
+            <mxPoint x="180" y="540" as="sourcePoint" />
             <mxPoint x="370.51" y="538.0770000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rq47lQsszGIYjsCbyuHM-12" value="Database" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+        <mxCell id="Rq47lQsszGIYjsCbyuHM-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Database&lt;/font&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
           <mxGeometry x="364" y="230" width="121.62" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Rq47lQsszGIYjsCbyuHM-17" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;endSize=8;shape=connector;" edge="1" parent="1">
@@ -48,7 +48,7 @@
         <mxCell id="Rq47lQsszGIYjsCbyuHM-22" value="Phản hồi yêu cầu" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="370" y="570" as="sourcePoint" />
-            <mxPoint x="160" y="570" as="targetPoint" />
+            <mxPoint x="180" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rq47lQsszGIYjsCbyuHM-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Người quản trị&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.tenant_admin;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
@@ -74,8 +74,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rq47lQsszGIYjsCbyuHM-30" value="Cấp quyền, quản lý người dùng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="340" y="710" width="180" height="30" as="geometry" />
+        <mxCell id="Rq47lQsszGIYjsCbyuHM-30" value="Cấp quyền&amp;nbsp;người dùng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Rq47lQsszGIYjsCbyuHM-31" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;endSize=8;shape=connector;" edge="1" parent="1">
           <mxGeometry x="-0.1429" y="110" width="80" relative="1" as="geometry">
@@ -84,13 +84,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rq47lQsszGIYjsCbyuHM-33" value="Máy chủ hệ thống" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Rq47lQsszGIYjsCbyuHM-33" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Máy chủ hệ thống&lt;/font&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="680" y="479.5" width="82.04" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="Rq47lQsszGIYjsCbyuHM-34" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="Rq47lQsszGIYjsCbyuHM-34" value="Gửi yêu cầu thông qua API" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="478" y="510" as="sourcePoint" />
-            <mxPoint x="658" y="510" as="targetPoint" />
+            <mxPoint x="485.62" y="510" as="sourcePoint" />
+            <mxPoint x="665.62" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rq47lQsszGIYjsCbyuHM-36" value="Phản hồi yêu cầu" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="667.62" y="550" as="sourcePoint" />
+            <mxPoint x="485.62" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
